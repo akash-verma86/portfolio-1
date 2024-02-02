@@ -1,0 +1,103 @@
+/* Responsive Code for Tab */
+@media only screen and (max-width: 1120px){
+    .work-withme{
+        height: 193px;
+    }  
+    .m-para{
+        width: 280px;
+    }
+    .works{
+        width: 95%;
+    }
+    .box1{
+        width: 425px;
+    }
+    .headp{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 880px){
+    .work-withme{
+        height: 220px;
+    }  
+    .m-para{
+        width: 220px;
+    }
+    .box1{
+        width: 350px;
+    }
+    .innerskills{
+        width: 92%;
+        height: 810px;
+    }
+}
+@media only screen and (max-width: 780px){
+    .work-withme{
+        height: 300px;
+        flex-direction: column;
+    }  
+    .m-para{
+        width: 650px;
+    }
+    .works{
+        flex-direction: column;
+    }
+    .box1{
+        width: 720px;
+        height: 450px;
+    }
+    .box1 img{
+        height: 450px;
+    }
+    .innerskills{
+        height: 830px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .home{
+        margin-left: -60px;
+    }
+    .hello{
+        margin-right: -60px;
+    }
+    .box1{
+        width: 380px;
+        height: 254px;
+    }
+    .box1 img{
+        height: 254px;
+    }
+    .m-para{
+        width: 80%;
+    }
+    .img-coder img{
+        width: 380px;
+    }
+    .innerskills{
+        flex-direction: column;
+        height: 2200px;
+        margin-top: -110px;
+    }
+    .innerabout{
+        width: 95%;
+    }
+    .innerabout h1{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .design{
+        width: 90%;
+    }
+    .doosar{
+        border-top: 1px solid rgb(230, 229, 229);
+        padding-top: 20px;
+        border-bottom: 1px solid rgb(230, 229, 229);
+        padding-bottom: 20px;
+}
+}
+@media only screen and (max-width: 391px)
+{
+    .innerskills{
+        margin-top: -60px;
+    }
+}

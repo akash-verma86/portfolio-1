@@ -1,0 +1,337 @@
+*{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* navabar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    height: 120px;
+}
+.home{
+    font-size: 40px;
+}
+.hello{
+    color: #2990d1;
+    width: 110px;
+    height: 40px;
+    font-weight: 900;
+    font-size: 17px;
+    border: 2px solid #2990d1;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello:hover{
+    background-color: #2990d1;
+    color: aliceblue;
+
+    
+}
+/* Main section */
+.hero{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headp{
+    font-size: 45px;
+    font-weight: 900;
+}
+.headings{
+    width: 85%;
+    text-align: center;
+}
+.headings p{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.img-user{
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-user img{
+    height: 230px;
+}
+.img-coder{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+/* About Me */
+.aboutme{
+    height: 580px;
+    background-color: #2990d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: -80px;
+    
+}
+.innerabout{
+    text-align: center;
+    height: 200px;
+    width: 60%;
+    margin-bottom: 120px;
+}
+.innerabout h1{
+    font-size: 33px;
+}
+.innerabout p{
+    font-size: 20px;
+    margin-top: 13px;
+    line-height: 30px;
+}
+/* Skills Overview */
+.myskills{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.innerskills{
+    display: flex;
+    justify-content: space-evenly;
+    width: 88%;
+    background-color: aliceblue;
+    margin-top: -150px;
+    border-radius: 15px;
+    height: 750px;
+    gap: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: rgb(101, 193, 246);
+}
+.design{
+    
+    width: 33%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+   
+}
+.doosar{
+    border-left: 1px solid rgb(230, 229, 229);
+    padding-left: 20px;
+    border-right: 1px solid rgb(230, 229, 229);
+    padding-right: 20px;
+}
+.logo{
+    text-align: center;
+    margin-top: 75px;
+}
+.design h1{
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+.p-1{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.p-2{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.p-3{
+    margin-top: 35px;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+}
+.colored-para{
+    color: #051ebe ;
+    font-weight: 900;
+}
+/* Work-Section */
+.work-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.heading-p{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.heading-p h1{
+    font-size: 2.2rem;
+}
+.heading-p p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+}
+.heading-p p a{
+    text-decoration: none;
+}
+.parrent-d{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 90%;
+    width: 95%;
+    
+
+}
+.box1{
+    margin: 12px;
+    height: 270px;
+    width: 30%; 
+    position: relative;
+    object-fit: cover;
+    
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+    
+}
+.gitbtn{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-top: -40px;
+    border: 3px solid #2990d1;
+    height: 50px;
+    width: 280px;
+    display: flex;
+    color: #2990d1;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+.btn p{
+    font-size: 1.2rem;
+}
+.btn:hover{
+    background-color: #2990d1;
+    color: aliceblue;
+}
+/* footer-section */
+.first-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-withme{
+    width: 90%;
+    height: 166px;
+    background-color: #141C3A;
+    color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.m-para{
+    font-size: 1.1rem;
+    width: 380px;
+    text-align: center;
+    font-weight: 900;
+}
+.lets-do{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 212px;
+    height: 53px;
+    border: 3px solid rgb(94, 175, 94);
+    border-radius: 30px;
+}
+.lets-do:hover{
+    color:#141C3A;
+    background-color: rgb(94, 175, 94);
+}
+.l-para{
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+/* Footer */
+footer{
+    margin-top: -90px;
+    height: 550px;
+    background-color: #6E07F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.elements-w{
+    margin-top: 70px;
+    width: 450px;
+
+}
+.foot-p1{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 40px;
+}
+.logos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+.b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(233, 232, 232);
+    border-radius: 50px;
+}
+.foot-p2{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 40px;
+}
